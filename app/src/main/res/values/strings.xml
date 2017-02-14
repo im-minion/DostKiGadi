@@ -1,3 +1,8 @@
 <resources>
-    <string name="app_name">Maps Api</string>
+    <string name="app_name">Dost ki Gadi</string>
+    <string name="share">Share Location With Friends</string>
+    <string name="book">Get Car</string>
+    <string name="number">Number of Friends :</string>
+    <string name="bookBtn">Book A Car</string>
+    <string name="carsAval">Number Of Cars Available :</string>
 </resources>
