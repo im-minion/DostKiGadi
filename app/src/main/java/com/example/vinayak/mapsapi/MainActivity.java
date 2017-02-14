@@ -13,6 +13,7 @@ import android.support.v4.app.ActivityCompat;
 import android.support.v7.app.AppCompatActivity;
 import android.view.View;
 import android.widget.TextView;
+import android.widget.Toast;
 
 import com.google.android.gms.common.ConnectionResult;
 import com.google.android.gms.common.api.GoogleApiClient;
@@ -95,7 +96,7 @@ public class MainActivity extends AppCompatActivity implements GoogleApiClient.C
 
             location = address + " " + city + " " + state; //this will conacat street, city and state
 
-            //Toast.makeText(MainActivity.this,"Location is:"+address,Toast.LENGTH_SHORT).show();
+            Toast.makeText(MainActivity.this,"Location is:"+location,Toast.LENGTH_SHORT).show();
             mLongitudeText.setText(location);
 
 
