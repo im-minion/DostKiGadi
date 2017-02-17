@@ -5,4 +5,6 @@
     <string name="number">Number of Friends :</string>
     <string name="bookBtn">Book A Car</string>
     <string name="carsAval">Number Of Cars Available :</string>
+    <string name="no_of_frnd">Number of friends</string>
+    <string name="initial_cars">3</string>
 </resources>

@@ -24,7 +24,6 @@ public class BookActivity extends AppCompatActivity {
         noOfFriends = (EditText) findViewById(R.id.editText);
         noOfCarsAval = (TextView) findViewById(R.id.noOfcar);
         BookButton = (Button) findViewById(R.id.btn);
-
         cars = Integer.parseInt(String.valueOf(noOfCarsAval.getText()));
         //Log.w("CAR VALE IS : ", String.valueOf(cars));//working
         //friends = Integer.parseInt(String.valueOf(noOfFriends.getText()));

@@ -96,7 +96,7 @@ public class MainActivity extends AppCompatActivity implements GoogleApiClient.C
 
             location = address + " " + city + " " + state; //this will conacat street, city and state
 
-            Toast.makeText(MainActivity.this,"Location is:"+location,Toast.LENGTH_SHORT).show();
+            Toast.makeText(MainActivity.this, "Location is:" + location, Toast.LENGTH_SHORT).show();
             mLongitudeText.setText(location);
 
 
@@ -126,8 +126,6 @@ public class MainActivity extends AppCompatActivity implements GoogleApiClient.C
     }
 
     public void newActivity(View view) {
-
         startActivity(new Intent(MainActivity.this, BookActivity.class));
-
     }
 }
