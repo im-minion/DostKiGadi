@@ -29,7 +29,7 @@ public class MainActivity extends AppCompatActivity implements GoogleApiClient.C
     private Location mLastLocation;     //
     TextView mLatitudeText;
     TextView mLongitudeText;
-    private Geocoder geocoder;          //geocoder to gettng the addres from latitude and longitude
+    private Geocoder geocoder;          //geocoder for gettng the addres from latitude and longitude
     List<Address> addresses;            //for storing the addresslines street city state
     Double lati, longi;
     String location;
